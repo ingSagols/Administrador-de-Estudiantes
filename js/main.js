@@ -14,10 +14,6 @@ const inputNombre = document.getElementById("nombre");
 const inputEdad = document.getElementById("edad");
 const contenedor = document.getElementById("estudiantesRegistrados");
 
-function agregarEstudiante(id, nombre, edad) {
-    const nuevoEstudiante = new Estudiante(id, nombre, edad);
-    estudiantes.push(nuevoEstudiante)
-}
 
 boton.addEventListener("click", () => {
     const nombre = inputNombre.value;
